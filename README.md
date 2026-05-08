@@ -24,7 +24,7 @@
 
 ---
 ## News:
-🆕 [18/02/2026] **SINQ was accepted and will be presented at ICML 2026! 🤗**
+🆕 [01/05/2026] **SINQ was accepted and will be presented at ICML 2026! 🤗**
 
 See you in Seoul! 🇰🇷 (More info [here](https://icml.cc/virtual/2026/poster/63404))
 
