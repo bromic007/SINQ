@@ -1,3 +1,4 @@
+[![Conference](https://img.shields.io/badge/ICML%202026-Accepted-success)](https://icml.cc)
 [![arXiv](https://img.shields.io/badge/arXiv-2509.22944-b31b1b.svg)](https://arxiv.org/abs/2509.22944)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![GitHub stars](https://img.shields.io/github/stars/huawei-csl/SINQ?label=Stars&logo=github&logoColor=white&style=flat-square)](https://github.com/huawei-csl/SINQ/stargazers)
@@ -8,7 +9,7 @@
 
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td><img src="imgs/logo_600.png" alt="SINQ Logo" width="160"></td>
+    <td><img src="imgs/logo_icml.png" alt="SINQ Logo" width="160"></td>
     <td style="vertical-align: middle;"><h1>SINQ: Sinkhorn-Normalized Quantization for Calibration-Free Low-Precision LLMs</h1></td>
   </tr>
 </table>
@@ -23,7 +24,11 @@
 
 ---
 ## News:
-🆕 [18/02/2025] **SINQ is now integrated into HF Transformers! 🤗**
+🆕 [18/02/2026] **SINQ was accepted and will be presented at ICML 2026! 🤗**
+
+See you in Seoul! 🇰🇷 (More info [here](https://icml.cc/virtual/2026/poster/63404))
+
+🆕 [18/02/2026] **SINQ is now integrated into HF Transformers! 🤗**
 > **You can now use SINQ in 🤗 Transformers in a super simplified way** thanks to our **SinqConfig** compatible with **HF AutoModelForCausalLM()**! 
 
 More information directly on the HF website [here](https://huggingface.co/docs/transformers/main/quantization/sinq)!
@@ -505,6 +510,7 @@ We are actively expanding SINQ with new features and integrations. Stay tuned he
 - [23/10/2025] - Faster inference with gemlite backend (4-bit 1D tiling)
 - [10/02/2026] - First **pre-SINQ GGUF** model available on [here](https://huggingface.co/collections/huawei-csl/presinq-gguf)!
 - [18/02/2026] - SINQ is now part of 🤗 **Hugging Face Transformers**. More info [here](https://huggingface.co/docs/transformers/main/quantization/sinq)!
+- [01/05/2026] - SINQ is officially a 🤗 **ICML 2026 paper** 🇰🇷. More info [here](https://icml.cc/virtual/2026/poster/63404)!
 - 🔜 **Coming soon** - Support for **Conv2D layers** and **timm models** for computer vision tasks  
 - 🔜 **Work in progress** - Support for **mixed-precision quantization** (combine multiple bitwidths for optimal accuracy-efficiency balance)  
 - 🔜 **Work in progress** - We’re actively working to provide support for popular frameworks such as <code>vLLM</code>, <code>SGLang</code>.
